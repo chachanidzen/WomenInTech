@@ -1,0 +1,76 @@
+.text	{
+	color: red;
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: blueviolet;*/
+	border:  2px solid blueviolet;
+	/*margin-top: 30px;
+	margin-right: 20px0;
+	margin-bottom: 50px;
+	margin-left: 25px;*/
+	margin:  30px 20px ;
+	padding: 30px 0 15px 25px;
+	text-transform: capitalize;
+}
+
+.text2	{
+	color: green;
+	/*border-width: 2px;
+	border-style: dotted;
+	border-color: yellow;*/
+	border: 2px dotted yellow;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	padding: 10px;
+
+}
+
+.container-block{
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin:  0 auto;
+	width: 1170px;
+	
+}
+
+.section-title{
+	color: black;
+	text-align: center;
+}
+
+.kartuli-absoluturi{
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+
+}
+
+.kartuli-relatiuri{
+
+	font-family: 'ALK Life';
+
+}
+
+.latinuri-absoluturi{
+	font-family: 'Noto Sans Mono', monospace;
+
+}
+.latinuri-relatiuri {
+	 font-family: 'Noto Sans Mono Condensed';
+
+}
+
+.text3	{
+	/*pirveli sityva iqneba didi asoti*/
+	text-transform: capitalize;
+	/*ხაზის სიმაღლე*/
+	line-height: 20px; 
+	/*ასოებს შორის დაშორება*/
+	letter-spacing: 5px;
+	/*სიტყვებს შორის დაშორება*/
+	word-spacing: 10px;
+	font-style: italic;
+	font-weight: 800;
+}
